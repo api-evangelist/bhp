@@ -7,11 +7,78 @@ tags:
   - Mining
   - Resources
   - Commodities
-description: 'The world''s largest mining company by market capitalization, headquartered in Melbourne, Australia. Produces iron ore, copper, nickel, and potash with operations spanning Australia, the Americas, and beyond, and a strategic focus on future-facing commodities.'
+  - Iron Ore
+  - Copper
+description: >-
+  BHP is one of the world's largest mining companies, headquartered in
+  Melbourne, Australia. BHP does not publish a public developer portal;
+  integration is delivered through enterprise procurement systems for tier-1
+  and tier-2 suppliers, charter and shipping data exchanges for commodity
+  logistics, and standard commodity-trading and assay data exchange formats
+  with customers and exchanges (LME, SHFE).
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.bhp.com/
+  - type: Suppliers
+    url: https://www.bhp.com/suppliers
+  - type: LocalBuying
+    url: https://www.bhp.com/suppliers/local-buying-program
+  - type: Customers
+    url: https://www.bhp.com/about/our-businesses
+  - type: InvestorRelations
+    url: https://www.bhp.com/investors
+  - type: Sustainability
+    url: https://www.bhp.com/sustainability
+  - type: PrivacyPolicy
+    url: https://www.bhp.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.bhp.com/legal-disclaimer
+  - type: Contact
+    url: https://www.bhp.com/contact
+  - type: Features
+    data:
+      - name: Procurement and Supplier Integration
+        description: BHP's procurement platform supports supplier registration, prequalification, RFP responses, purchase orders, ASNs, and invoicing for tier-1 and tier-2 suppliers.
+      - name: Local Buying Program
+        description: BHP's Local Buying Program connects small regional suppliers with BHP sites via a managed portal.
+      - name: Commodity Logistics
+        description: Shipment, charter, and assay data for iron ore, copper concentrate, and other commodities are exchanged with carriers, ports, and customers via private channels.
+      - name: ESG and Sustainability Disclosures
+        description: BHP publishes climate, water, biodiversity, and tailings disclosures aligned with TCFD, GRI, and the Global Industry Standard on Tailings Management.
+      - name: Investor and Market Communications
+        description: ASX, LSE, NYSE, and JSE listings drive regulated disclosure and shareholder communications.
+  - type: UseCases
+    data:
+      - name: Supplier Onboarding and Procurement
+        description: Tier-1 and tier-2 suppliers register with BHP and exchange commercial documents through the procurement portal.
+      - name: Commodity Sales and Logistics
+        description: Customers (steel mills, smelters, traders) coordinate shipments, assays, demurrage, and settlements with BHP via private commercial channels.
+      - name: Joint Venture Operations
+        description: Operating joint ventures (e.g. Escondida, Antamina, Samarco) exchange operational and financial data with BHP and other JV partners.
+      - name: Tailings and Environmental Monitoring
+        description: BHP integrates operational, environmental, and tailings monitoring data into Global Industry Standard on Tailings Management disclosures.
+  - type: Compliance
+    data:
+      - name: ASX / LSE / NYSE / JSE Continuous Disclosure
+        description: BHP's primary and secondary listings subject it to continuous-disclosure rules on the ASX, LSE, NYSE, and JSE.
+      - name: GISTM
+        description: Tailings storage facilities are governed by the Global Industry Standard on Tailings Management.
+      - name: TCFD / ISSB
+        description: Climate-related financial disclosures align with the Task Force on Climate-related Financial Disclosures and the ISSB IFRS S1/S2 standards.
+      - name: GRI / SASB
+        description: Sustainability reporting aligns with Global Reporting Initiative and SASB metrics.
+      - name: FCPA / UK Bribery Act / Modern Slavery Acts
+        description: Anti-bribery and modern-slavery controls follow US FCPA, UK Bribery Act, and Australian and UK Modern Slavery Acts.
+      - name: ISO 9001 / ISO 14001 / ISO 45001
+        description: Quality, environmental, and occupational health & safety management systems align with applicable ISO standards.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
