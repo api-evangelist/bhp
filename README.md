@@ -1,4 +1,4 @@
-# BHP (bhp)
+# BHP
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,21 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BHP is one of the world's largest mining companies, headquartered in Melbourne, Australia. BHP does not publish a public developer portal; integration is delivered through enterprise procurement systems, charter and shipping data exchanges, and commodity-trading data formats with customers and exchanges.
+BHP is one of the world's largest mining companies, headquartered in Melbourne, Australia. BHP does not publish a public developer portal; integration is delivered through enterprise procurement systems for tier-1 and tier-2 suppliers, charter and shipping data exchanges for commodity logistics, and standard commodity-trading and assay data exchange formats with customers and exchanges (LME, SHFE).
 
-**URL:** [https://www.bhp.com/](https://www.bhp.com/)
+**Areas:** Mining · Resources · Commodities · Iron Ore · Copper
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=bhp-api-evangelist&utm_content=repo)
+## BHP on APIs.io
 
-## Tags
+Everything profiled for BHP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bhp/](https://apis.io/providers/bhp/)** — or go straight to one of the APIs or properties below.
 
-- Mining, Resources, Commodities, Iron Ore, Copper
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-No public developer APIs published. See `apis.yml` for documented features, use cases, and compliance scope captured in `common[]`.
+#### Security (1)
 
-## Timestamps
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+- [Bhp Domain Security](https://apis.io/security/bhp/bhp-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bhp.com/)
+- [Terms of service](https://www.bhp.com/legal-disclaimer)
+- [Privacy policy](https://www.bhp.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bhp/](https://apis.io/providers/bhp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BHP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bhp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
